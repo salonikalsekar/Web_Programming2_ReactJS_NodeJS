@@ -1,0 +1,152 @@
+p{
+    font-size: 22px;
+    color:blue;
+}
+ #the-heading{
+     color:blue;
+ }
+
+#show{
+    color:blue;
+}
+body{
+    background-image: url('/public/img/bg.jpg');
+    height:100%;
+    background-size: cover;
+    background-repeat: none;
+    opacity: 0.8;
+}
+
+#leftbar{
+     float: none;
+    width: auto;
+    
+    
+}
+ul{
+    height:100%;
+}
+
+@media screen and (max-width:500px){
+
+nav{
+    width:100/10%
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+   float: left;
+    text-align: center;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2px 4px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:#111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+}
+
+.wrapper {overflow: hidden;}
+
+#main {margin-left: 4px;}
+
+#leftbar {
+    float: none;
+    width: auto;
+    height:100%;
+}   
+
+#showList {
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+
+@media screen and (min-width: 500px) {
+    #leftbar {width: 25%; float: left; height:100%}
+    #main {margin-left: 100px;}
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: blue;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+}⁠⁠⁠⁠
+
+
+
+@media screen and (min-width:501px) and (max-width:800px)
+{
+    #leftbar{
+    height:100%;
+}
+.flex-container {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: flex-start;
+       -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+   margin: 5px;
+   padding: 5px;
+}
+
+article{
+    width: 50%;
+    flex-wrap: row;
+    flex: 0 0 100;
+}}
+
+@media screen and (min-width:801px)
+{
+
+#leftbar{
+    height:100%;
+}
+
+.flex-container {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: flex-start;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+   margin: 5px;
+   padding: 25px;
+}
+
+article{
+    width: 33.33%;
+    flex-wrap: row;
+    flex: 0 0 100;
+}}
+

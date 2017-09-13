@@ -1,0 +1,20 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "This is lab2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "author": "Saloni",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "node-uuid": "^1.4.8",
+    "xss": "^0.3.4"
+  }
+}
