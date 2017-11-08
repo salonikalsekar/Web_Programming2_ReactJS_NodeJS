@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color:white
+}
+
+.App-body{
+  background: black;
+  background-size: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.App-header{
+  height: 100% !important;
+  color: black !important
+}
+img .kj {
+  width: 100%;
+  height: auto;
+  }
+
+  nav ul {
+    display: flex;
+    padding: 0 10%;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    list-style: none;
+    flex-grow: 1;
+    display: block;
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
