@@ -10,7 +10,7 @@
   "author": "GitHub",
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "jquery": "^3.1.1",
+    "jquery": "^3.5.0",
     "tether": "^1.4.0"
   },
   "dependencies": {
