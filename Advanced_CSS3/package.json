@@ -13,7 +13,7 @@
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
-    "handlebars": "^4.0.10",
+    "handlebars": "^4.5.3",
     "node-uuid": "^1.4.8",
     "xss": "^0.3.4"
   }
