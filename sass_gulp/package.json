@@ -21,7 +21,7 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "handlebars": "^4.0.5",
-    "mongodb": "^2.1.18",
+    "mongodb": "^3.1.13",
     "node-uuid": "^1.4.7",
     "xss": "^0.2.13",
     "gulp-autoprefixer": "^3.1.1",
