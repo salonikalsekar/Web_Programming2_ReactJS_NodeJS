@@ -18,7 +18,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sass": "^3.1.0",
     "handlebars": "^4.0.5",
     "mongodb": "^2.1.18",
