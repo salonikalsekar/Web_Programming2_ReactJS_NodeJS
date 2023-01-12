@@ -10,8 +10,8 @@
   "author": "Saloni",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.1",
-    "express": "^4.15.4",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "express-handlebars": "^3.0.0",
     "handlebars": "^4.0.10",
     "node-uuid": "^1.4.8",
